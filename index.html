@@ -9,9 +9,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/command.css">
     <link rel="stylesheet" href="./public/css/home.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js">
+    
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        centeredSlides: false,
+        slidesPerGroupSkip: 1,
+        grabCursor: true,
+        keyboard: {
+          enabled: true,
+        },
+        breakpoints: {
+          769: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+</script>
+
 </head>
 <body>
     
@@ -255,20 +286,18 @@
        </div>
 
        
-       <div class="selling_product_frame">
+        <div class="selling_product_frame ">
         <div class="container">
             <div class="category_top">
                 <span>Top Selling Product</span>
                 <a href="./product/all.html"> View All</a>
             </div>
 
-            <div class="product_wrapper">
-                <div class="next_prev_box">
-                    <img src="./public/images/icons/next.svg" alt="">
-                </div>
-                <div class="product_boxes">
+             <div class="product_wrapper swiper mySwiper">
+               
+                <div class="product_boxes swiper-wrapper">
 
-                    <div class="product_box">
+                    <div class="product_box swiper-slide" style="width: 356px;">
                         <a href="./product/chosenProduct.html">
                             <div class="product_img_box" style="background: url(./public/images/products/watch.png); background-size: cover; ">
                                
@@ -299,7 +328,7 @@
                         </div>
                     </div>
                     
-                    <div class="product_box">
+                    <div class="product_box swiper-slide" style="width: 356px;">
                         <a href="./product/chosenProduct.html">
                             <div class="product_img_box" style="background: url(./public/images/products/phone.png); background-size: cover;">
                                 
@@ -330,7 +359,7 @@
                         </div>
                     </div>
 
-                    <div class="product_box">
+                    <div class="product_box swiper-slide" style="width: 356px;">
                         <a href="./product/chosenProduct.html">
                             <div class="product_img_box" style="background: url(./public/images/products/iRobot.png); background-size: cover;">
                                 
@@ -359,7 +388,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product_box">
+                    <div class="product_box swiper-slide" style="width: 356px;">
                         <a href="./product/chosenProduct.html">
                             <div class="product_img_box" style="background: url(./public/images/products/dyson.png); background-size: cover;">
                                 
@@ -391,11 +420,15 @@
                     
 
                 </div>
-                <div class="next_prev_box" style="transform: scaleX(-1);">
-                    <img src="./public/images/icons/next.svg" alt="">
+                <div class="next_prev_box swiper-button-prev" >
+                    <!-- <img src="./public/images/icons/next.svg" alt=""> -->
                 </div>
-            </div>
-            <div class="product_pagionation_box">
+                 <div class="next_prev_box swiper-button-next">
+                    <!-- <img src="./public/images/icons/next.svg" alt="" > -->
+                </div>
+            </div> 
+            
+            <div class="product_pagionation_box swiper-pagination">
                 <div class="product_pagination_main">
                 <img src="./public/images/icons/arrow-prev_next.svg" alt="">
                 <div class="pagination_dot">
@@ -422,7 +455,11 @@
             </div>
             
         </div>
+
+    
        </div>
+       
+       
        <div class="adv_frame">
         Members get free shipping* with no order minimum!*Restrictions apply.Try free 30-day trial
        </div>
@@ -997,5 +1034,37 @@
         </div>
     </div>
    </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        centeredSlides: false,
+        slidesPerGroupSkip: 1,
+        grabCursor: true,
+        keyboard: {
+          enabled: true,
+        },
+        breakpoints: {
+          769: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
 </body>
 </html>
