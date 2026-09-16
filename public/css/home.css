@@ -26,7 +26,7 @@
     box-sizing: border-box;
 }
 .container .product_content_box .product_title {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -37,7 +37,7 @@
 .container .product_content_box .product_desc {
     margin-top: 7px;
     height: 56px;
-     font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -57,7 +57,7 @@
 }
 .container .review_box span {
 margin-left: 10px;
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -74,7 +74,7 @@ margin-left: 10px;
 
 }
 .container .price_box strong {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -83,7 +83,7 @@ margin-left: 10px;
 }
 .container .price_box span {
     margin-left: 10px;
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -125,7 +125,7 @@ position: relative;
     align-items: center;
     background-color: #f5c34b;
     border-radius: 6px;
-    font-family: jost;
+font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -137,7 +137,7 @@ position: relative;
     margin-top: 10px;
     width: 428px;
     
-    font-family: jost;
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -147,7 +147,7 @@ position: relative;
 .header_frame  .header_content p {
     margin-top: 10px;
 
-    font-family: 'jost';
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -163,7 +163,7 @@ position: relative;
     align-items: center;
     border-radius: 6px;
 
-    font-family: 'jost';
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -201,7 +201,7 @@ right: 10px;
 }
 .header_frame .box_left span {
 
-    font-family: 'jost';
+   font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -210,7 +210,7 @@ right: 10px;
 }
 .header_frame .box_left p {
     margin: 10px 0px;
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -220,7 +220,7 @@ right: 10px;
 }
 .header_frame .box_left a {
     margin: 10px 0px;
-    font-family: "jost";
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -282,7 +282,7 @@ height: 35px;
 
 }
 .service_frame  .service_content span {
- font-family: "jost";
+font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -290,7 +290,7 @@ height: 35px;
     color: #041e42;
 }
 .service_frame  .service_content p {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -323,7 +323,7 @@ height: 35px;
     align-items: center;
 }
  .category_top span {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -332,7 +332,7 @@ height: 35px;
 }
 
  .category_top a {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -373,7 +373,7 @@ height: 35px;
 }
 .shop_category_frame .category_box span {
     margin-top: 25px;
-    font-family: "jost";
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -416,7 +416,7 @@ height: 35px;
 }
 
 .selling_product_frame .category_top a {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -485,7 +485,7 @@ border: none;
 background:#0053f6 ;
 box-shadow: 0px 5px 20px Orgba(0, 83, 246, 0.1);
 border-radius: 6рх;
-font-family: "Jost";
+font-family: var(--font);
 font-style: normal;
 font-weight: 500; 
 font-size: 15px;
@@ -504,7 +504,7 @@ color: #FFFFFF;
     box-sizing: border-box;
 }
 .selling_product_frame .product_content_box .product_title {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -515,7 +515,7 @@ color: #FFFFFF;
 .selling_product_frame .product_content_box .product_desc {
     margin-top: 7px;
     height: 56px;
-     font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -535,7 +535,7 @@ color: #FFFFFF;
 }
 .selling_product_frame .review_box span {
 margin-left: 10px;
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -552,7 +552,7 @@ margin-left: 10px;
 
 }
 .selling_product_frame .price_box strong {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -561,7 +561,7 @@ margin-left: 10px;
 }
 .selling_product_frame .price_box span {
     margin-left: 10px;
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -626,7 +626,7 @@ align-items: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: "jost";
+        font-family: var(--font);
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -689,7 +689,7 @@ justify-content: flex-end;
 .big_product_content span {
 color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 15px;
 font-weight: 400;
@@ -702,7 +702,7 @@ text-align: left;
     margin: 7px 0;
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 26px;
 font-weight: 500;
@@ -715,7 +715,7 @@ text-align: left;
     margin-top: 7px 0;
     color: rgba(4, 30, 66, 1);
 
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 15px;
 font-weight: 500;
@@ -763,8 +763,7 @@ text-align: left;
 }
 .small_product_content strong {
 color: rgba(4, 30, 66, 1);
-
-font-family: "Jost";
+font-family: var(--font);
 font-style: Medium;
 font-size: 16px;
 font-weight: 500;
@@ -773,8 +772,7 @@ letter-spacing: 0%;
 }
 .small_product_content span {
     color: rgba(98, 105, 116, 1);
-
-font-family: "Jost";
+font-family: var(--font);
 font-style: Regular;
 font-size: 13px;
 font-weight: 400;
@@ -819,7 +817,7 @@ justify-content: center;
     align-items: center;
 }
  .category_top span {
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -829,7 +827,7 @@ justify-content: center;
 
  .category_top a {
     margin-left: 30px;
-    font-family: "jost";
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -920,8 +918,7 @@ background-image: url(../images/icons/event_bg.png);
 
 
   .event_content_box .event_title {
-    
-    font-family: "jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -951,7 +948,7 @@ background-image: url(../images/icons/event_bg.png);
 }
 
 .timer_box strong {
-font-family: 'jost';
+font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -961,7 +958,7 @@ font-family: 'jost';
 }
 
 .timer_box span {
-    font-family: 'jost';
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -983,7 +980,7 @@ font-family: 'jost';
     border-radius: 6px;
     text-transform: capitalize;
 
-    font-family: 'jost';
+   font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
