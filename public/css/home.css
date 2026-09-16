@@ -451,8 +451,8 @@ font-family: var(--font);
 }
 
 .selling_product_frame .product_boxes .product_box.swiper-slide {
-    width: 356px;
-    height: 100%;
+    width: 356px !important;
+    height: 100% !important;
 
     display: flex;
     flex-direction: column;
